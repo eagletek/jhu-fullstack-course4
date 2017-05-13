@@ -1,0 +1,52 @@
+
+body {
+  background: #ddd;
+}
+.navbar {
+  background: #822;
+}
+.navbar-default .navbar-nav>li>a
+{
+  text-align: center;
+}
+
+.navbar a,
+.navbar a:link,
+.navbar a:visited,
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:link,
+.navbar-default .navbar-nav>li>a:visited
+{
+  color: white;
+}
+
+.navbar a:hover,
+.navbar a:focus,
+.navbar a:active,
+.navbar a.navbar-brand:hover,
+.navbar a.navbar-brand:focus,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:active
+{
+  color: #bbb;
+  background: #933;
+}
+
+.navbar .navbar-header .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle:focus .icon-bar,
+.navbar-default .navbar-toggle:hover .icon-bar
+{
+  background-color: #777;
+}
+
+
+main>.row>section {
+  background: #999;
+  height: 1500px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}

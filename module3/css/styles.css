@@ -5,10 +5,6 @@ body {
 .navbar {
   background: #822;
 }
-.navbar-default .navbar-nav>li>a
-{
-  text-align: center;
-}
 
 .navbar a,
 .navbar a:link,
